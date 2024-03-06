@@ -7,11 +7,14 @@
           "type": "item",
           "name": "minecraft:fish",
           "weight": 1,
-          "count": {
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
                 "min": 3,
                 "max": 3
-              },
-          "functions": [
+              }
+            },
             {
               "function": "furnace_smelt",
               "conditions": [
@@ -42,11 +45,14 @@
           "type": "item",
           "name": "minecraft:bone",
           "weight": 1,
-          "count": {
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
                 "min": 3,
                 "max": 3
               }
-          "functions": [
+            },
             {
               "function": "looting_enchant",
               "count": {
