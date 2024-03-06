@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Example vanilla behavior pack",
+        "name": "Vanilla Behavior Pack",
+        "uuid": "7950e6b6-0a7d-4899-9d17-ec65f3630241",
+        "version": [ 0, 0, 1 ],
+        "min_engine_version": [ 1, 20, 60 ]
+    },
+    "modules": [
+        {
+            "description": "Mass BP",
+            "type": "data",
+            "uuid": "71b810c3-1ba4-4d52-962b-9d7979c45ee0",
+            "version": [0, 0, 1]
+        }
+    ]
+}
