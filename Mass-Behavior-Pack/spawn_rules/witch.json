@@ -7,6 +7,10 @@
     },
     "conditions": [
       {
+        "minecraft:herd": {
+          "min_size": 3,
+          "max_size": 3
+        },
         "minecraft:spawns_on_surface": {},
         "minecraft:spawns_underground": {},
         "minecraft:brightness_filter": {
