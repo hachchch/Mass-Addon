@@ -245,8 +245,8 @@
       "minecraft:nameable": {
       },
       "minecraft:health": {
-        "value": 40,
-        "max": 40
+        "value": 120,
+        "max": 120
       },
       "minecraft:experience_reward": {
         "on_bred": "Math.Random(1,7)",
